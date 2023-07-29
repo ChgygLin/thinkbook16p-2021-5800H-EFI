@@ -1,7 +1,13 @@
 # ThinkBook16p-2021-5800H-EFI
-hackintosh EFI for ThinkBook16p 2021 
+
+
+## 前言
+
+一时兴起想搞点IOS APP玩玩，进了黑果大坑，索性当前时间点各外设内核开源驱动比较成熟了。唯一遗憾点在于macOS不支持NV显卡。
 
 本EFI适配ThinkBook16p 2021 ，其他5800H笔记本也可参考。
+
+[hackintosh EFI for ThinkBook16p 2021](https://github.com/ChgygLin/thinkbook16p-2021-5800H-EFI)
 
 
 
