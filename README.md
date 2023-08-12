@@ -61,7 +61,7 @@ TP: MSFT0001
 
 * 风扇Sensor监控（搁置）
 
-* 麦克风无法使用
+* 麦克风无法使用（[无解](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
 
 
 
