@@ -63,6 +63,14 @@ TP: MSFT0001
 
 
 
+## 启动画面
+
+* 将Lenovo目录拷贝至EFI根目录即可修改启动画面。
+
+* 可自定义bmp图片，图片名为mylogo_2560x1600.bmp。
+
+
+
 ## Grub引导Linux/macOS双系统
 
 主力系统为Ubuntu，使用Grub引导OpenCore（Grub默认支持识别Windows启动分区，可实现3系统引导）。
@@ -111,7 +119,7 @@ sudo update-grub
 | SW                                                    | 版本号   | 项目地址                                                    |
 | ----------------------------------------------------- | -------- | ----------------------------------------------------------- |
 | OpenCore                                              | 0.9.3    | https://github.com/acidanthera/OpenCorePkg                  |
-| AMD Kernel Patch                                      | 23/07/14 | https://github.com/AMD-OSX/AMD_Vanilla                      |
+| AMD Kernel Patch                                      | 23/06/14 | https://github.com/AMD-OSX/AMD_Vanilla                      |
 | Lilu                                                  | 1.6.6    | https://github.com/acidanthera/Lilu                         |
 | VirtualSMC<br />SMCBatteryManager<br />SMCLightSensor | 1.3.2    | https://github.com/acidanthera/VirtualSMC                   |
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
