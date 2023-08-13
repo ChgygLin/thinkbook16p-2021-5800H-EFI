@@ -63,6 +63,8 @@ TP: MSFT0001
 
 * 麦克风无法使用（[无解](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
 
+* 外接显示器
+
 
 
 ## 启动画面
