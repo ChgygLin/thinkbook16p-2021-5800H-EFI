@@ -165,6 +165,8 @@ sh -c "$(curl -fsSL -x http://127.0.0.1:7890 https://raw.github.com/robbyrussell
 
 * [台式机黑苹果如何屏蔽不支持的NVIDIA独立显卡和PM981](https://heipg.cn/tutorial/block-nv-dgpu-or-pm981.html)
 
+* [无法接收到系统更新推送的解决方法](https://heipg.cn/tutorial/macos-monterey-delta-update-fixup.html)
+
 * [Disabling laptop dGPUs (SSDT-dGPU-Off/NoHybGfx)](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html)
 * [Battery Status](https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery.html#dual-battery)
 
