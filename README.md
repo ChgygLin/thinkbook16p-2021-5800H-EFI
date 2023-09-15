@@ -29,7 +29,7 @@ TP: MSFT0001
 
 ## EFI支持情况
 
-* 支持macOS Monterey/Ventura系统，支持grub引导macOS/Linux双系统
+* 支持macOS Monterey/Ventura系统，支持grub引导macOS/Linux双系统，支持系统推送更新
 
 * 支持Wifi，蓝牙，声卡，集成摄像头
 
