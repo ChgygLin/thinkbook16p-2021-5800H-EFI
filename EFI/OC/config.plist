@@ -350,7 +350,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.6.6 | Lilu</string>
+				<string>V1.6.7 | Lilu</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -458,7 +458,7 @@
 				<key>BundlePath</key>
 				<string>NootedRed.kext</string>
 				<key>Comment</key>
-				<string>T0813 | NootedRed</string>
+				<string>T0915 | NootedRed</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -476,7 +476,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.1.0 | NVMeFix</string>
+				<string>V1.1.1 | NVMeFix</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -620,7 +620,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.8 | VoodooPS2Controller</string>
+				<string>V2.3.5 | VoodooPS2Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -638,7 +638,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.8 | VoodooPS2Keyboard</string>
+				<string>V2.3.5 | VoodooPS2Keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -800,7 +800,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0 | IntelBluetoothFirmware</string>
+				<string>V2.3.0 | IntelBluetoothFirmware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -818,7 +818,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.6.7 | BlueToolFixup</string>
+				<string>V2.6.8 | BlueToolFixup</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -836,7 +836,7 @@
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0 | IntelBTPatcher</string>
+				<string>V2.3.0 | IntelBTPatcher</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -890,7 +890,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.8.3 | AppleALC</string>
+				<string>V1.8.5 | AppleALC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
