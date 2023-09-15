@@ -61,7 +61,7 @@ TP: MSFT0001
 
 * 风扇Sensor监控（搁置）
 
-* 麦克风无法使用（[无解](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
+* 麦克风无法使用（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
 
 * 外接显示器
 
@@ -134,7 +134,7 @@ sudo update-grub
 | RestrictEvents                                        | 1.1.2    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |
 | VoodooI2C<br />VoodooI2CHID                           | 23/07/11 | https://github.com/VoodooI2C/VoodooI2C                      |
-| VoodooPS2Controller                                   | 2.8      | https://github.com/acidanthera/VoodooPS2                    |
+| VoodooPS2Controller                                   | 2.3.5    | https://github.com/acidanthera/VoodooPS2                    |
 | BrightnessKeys                                        | 1.0.3    | https://github.com/acidanthera/BrightnessKeys               |
 | FeatureUnlock                                         | 1.1.5    | https://github.com/acidanthera/FeatureUnlock                |
 | ECEnabler                                             | 1.0.4    | https://github.com/1Revenger1/ECEnabler                     |
