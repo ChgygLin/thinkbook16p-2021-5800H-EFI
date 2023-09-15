@@ -41,7 +41,7 @@ TP: MSFT0001
 
 * 定制USB驱动
 
-* Vega集显驱动（基于NootedRed master分支0813编译）
+* Vega集显驱动（基于NootedRed master分支0915编译）
 
 * 关闭RTX3060（基于SSDT，屏蔽以省电）
 * CPU温度Sensor（修复了SMCAMDProcessor官方最新代码不支持温度上报的BUG，新版macOS不支持功耗Sensor，如需要请使用**AMD Power Gadget**）
@@ -124,13 +124,13 @@ sudo update-grub
 | ----------------------------------------------------- | -------- | ----------------------------------------------------------- |
 | OpenCore                                              | 0.9.3    | https://github.com/acidanthera/OpenCorePkg                  |
 | AMD Kernel Patch                                      | 23/06/14 | https://github.com/AMD-OSX/AMD_Vanilla                      |
-| Lilu                                                  | 1.6.6    | https://github.com/acidanthera/Lilu                         |
+| Lilu                                                  | 1.6.7    | https://github.com/acidanthera/Lilu                         |
 | VirtualSMC<br />SMCBatteryManager<br />SMCLightSensor | 1.3.2    | https://github.com/acidanthera/VirtualSMC                   |
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
 | AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.1    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
-| NootedRed                                             | 23/08/13 | https://github.com/NootInc/NootedRed                        |
-| NVMeFix                                               | 1.1.0    | https://github.com/acidanthera/NVMeFix                      |
+| NootedRed                                             | 23/09/15 | https://github.com/NootInc/NootedRed                        |
+| NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
 | RestrictEvents                                        | 1.1.2    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |
 | VoodooI2C<br />VoodooI2CHID                           | 23/07/11 | https://github.com/VoodooI2C/VoodooI2C                      |
@@ -140,11 +140,11 @@ sudo update-grub
 | ECEnabler                                             | 1.0.4    | https://github.com/1Revenger1/ECEnabler                     |
 | NullEthernet                                          | Unknown  | https://github.com/RehabMan/OS-X-Null-Ethernet              |
 | AirportItlwm                                          | 2.2.0    | https://github.com/OpenIntelWireless/itlwm                  |
-| IntelBluetoothFirmware<br />IntelBTPatcher            | 2.2.0    | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
-| BlueToolFixup                                         | 2.6.7    | https://github.com/acidanthera/BrcmPatchRAM                 |
+| IntelBluetoothFirmware<br />IntelBTPatcher            | 2.3.0    | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
+| BlueToolFixup                                         | 2.6.8    | https://github.com/acidanthera/BrcmPatchRAM                 |
 | RealtekCardReader                                     | 0.9.7    | https://github.com/0xFireWolf/RealtekCardReader             |
 | RealtekCardReaderFriend                               | 1.0.4    | https://github.com/0xFireWolf/RealtekCardReaderFriend       |
-| AppleALC                                              | 1.8.3    | https://github.com/acidanthera/AppleALC                     |
+| AppleALC                                              | 1.8.5    | https://github.com/acidanthera/AppleALC                     |
 | USBMap                                                | think16p | https://github.com/USBToolBox/kext                          |
 
 
