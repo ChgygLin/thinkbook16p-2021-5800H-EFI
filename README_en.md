@@ -1,9 +1,8 @@
 # ThinkBook16p-2021-5800H-EFI
+hackintosh EFI for ThinkBook16p 2021
 
-本EFI适配ThinkBook16p 2021 ，其他5800H笔记本也可参考。
-
-[English](README.md)  
-简体中文 (当前语言)  
+English (Current)  
+[简体中文](README_zh.md)  
 
 
 
