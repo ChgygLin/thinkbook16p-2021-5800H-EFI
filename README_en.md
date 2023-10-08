@@ -6,7 +6,7 @@ English (Current)
 
 
 
-##  基本配置信息
+##  Specifications
 
 CPU: 5800H
 
@@ -22,68 +22,68 @@ TP: MSFT0001
 
 
 
-## EFI支持情况
+## Features
 
-* 支持macOS Monterey/Ventura系统，支持grub引导macOS/Linux双系统，支持系统推送更新
+* macOS Monterey/Ventura && system update、Booting macOS/Linux dual system with Grub
 
-* 支持Wifi，蓝牙，声卡，集成摄像头
+* Wifi、BT、Audio、Integrated camera
 
-* 快捷键（音量、屏幕亮度、键盘背光）
+* Shortcut（Audio、Display brightness、keyboard backlight）
 
-* 支持电池相关功能（基于SSDT，电量显示、电池信息、电池温度Sensor、充放电状态）
+* Battery（based on SSDT，Battery Percentage、Battery Info、Battery Temperature、Battery Charging/Discharging）
 
-* 支持触摸板（GPIO中断模式，基于 VoodooI2C master分支0711编译)
+* touchpad（GPIO interrupt mode，compiled with VoodooI2C master 20230711)
 
-* 定制USB驱动
+* USB mapping with USBToolBox
 
-* Vega集显驱动（基于NootedRed master分支0915编译）
+* Vega iGPU driver（compiled with NootedRed master 20230915）
 
-* 关闭RTX3060（基于SSDT，屏蔽以省电）
-* CPU温度Sensor（修复了SMCAMDProcessor官方最新代码不支持温度上报的BUG，新版macOS不支持功耗Sensor，如需要请使用**AMD Power Gadget**）
-
-
-
-## 已知问题(*Workaround*)
-
-* Chrome首次启动卡顿，需要关闭GPU加速（chrome://settings/system： 反选Use hardware acceleration when available ）
-* VSCode首次启动卡顿，需要关闭GPU加速（shift+cmd+p：Configure Runtime Arguments，添加"disable-hardware-acceleration": true）
+* disabled RTX3060（based on SSDT）
+* CPU Temperature Sensor（Fix SMCAMDProcessor Temperature Sensor BUG）
 
 
 
-## 已知问题
+## Issues && Workaround
 
-* 打开高分辨率图片偶尔会出现花块，系统卡顿时内核日志报错，"**AMD** ERROR! Failed to allocate size:13107200. There is 52682688 free memory remaining, and 448982976 fixed-free memory remaining."（等显卡驱动更新）
-
-* 风扇Sensor监控（搁置）
-
-* 麦克风无法使用（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
-
-* 外接显示器
+* Chrome hangs, need disable GPU Acceleration（chrome://settings/system： disselect Use hardware acceleration when available ）
+* VSCode hangs, need disable GPU Acceleration（shift+cmd+p：Configure Runtime Arguments，add "disable-hardware-acceleration": true）
 
 
 
-## 启动画面
+## Issues
 
-* 将Lenovo目录拷贝至EFI根目录即可修改启动画面。
+* Flower blocks appear occasionally when opening high-resolution images ，kernel log，"**AMD** ERROR! Failed to allocate size:13107200. There is 52682688 free memory remaining, and 448982976 fixed-free memory remaining."
 
-* 可自定义bmp图片，图片名为mylogo_2560x1600.bmp。
+* Fan sensor/control（To be continued）
+
+* Microphone unavailable（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
+
+* external display 
 
 
 
-## Grub引导Linux/macOS双系统
+## BootLogo
 
-主力系统为Ubuntu，使用Grub引导OpenCore（Grub默认支持识别Windows启动分区，可实现3系统引导）。
+* Copy the Lenovo directory to the EFI root directory to modify the boot logo
+
+* Customized image，rename it to mylogo_2560x1600.bmp。
+
+
+
+## Booting macOS/Linux dual system with Grub
+
+Booting OpenCore with Grub（Grub can identify Windows boot partition，means 3 systems booting）
 
 ```shell
-# 在ubuntu系统中
+# In ubuntu
 sudo cp BOOT/BOOTx64.efi /boot/efi/EFI/BOOT/BOOTx64-OC.efi
 sudo cp -rf OC /boot/efi/EFI/
 
+# Find the ID number 0D40-D569 corresponding to nvme0n1p1(EFI partition)
 ls -l /dev/disk/by-uuid/
-# 找到nvme0n1p1对应的id号0D40-D569
 
 sudo vim /etc/grub.d/40_custom
-#添加如下信息
+#add the configuration
 menuentry "OC-0.9.3 && Ventura" {
         insmod chain
         insmod fat
@@ -94,7 +94,7 @@ menuentry "OC-0.9.3 && Ventura" {
 }
 
 sudo vim /etc/default/grub
-# 注释 GRUB_TIMEOUT_STYLE=hidden
+# maybe need comment "GRUB_TIMEOUT_STYLE=hidden"
 
 sudo update-grub
 ```
@@ -103,19 +103,17 @@ sudo update-grub
 
 ## SomeTips
 
-* 在opencore启动界面，ctrl+enter设置默认启动系统
-* appleuserECM进程cpu占用过高
-  usb网卡拔掉重插
-* mds_stores进程cpu占用过高
-  关闭Spotlight，取消所有目录搜索，关闭快捷键
-* 关闭拼写纠正
+* When OpenCore appears ，you can set the default booting system with ctrl+enter
+* appleuserECM causing high cpu usage, maybe reinsert the usb network card
+* mds_stores causing high cpu usage, you can close Spotlight, cancel all directory searches, and turn off shortcut keys
+* Turn off spelling correction
   Settings-Keyboard-Text input-Correct spelling automatically
 
 
 
-## EFI使用软件
+## Credits
 
-| SW                                                    | 版本号   | 项目地址                                                    |
+| Project                                               | Version  | Repository                                                  |
 | ----------------------------------------------------- | -------- | ----------------------------------------------------------- |
 | OpenCore                                              | 0.9.3    | https://github.com/acidanthera/OpenCorePkg                  |
 | AMD Kernel Patch                                      | 23/06/14 | https://github.com/AMD-OSX/AMD_Vanilla                      |
@@ -152,7 +150,7 @@ sh -c "$(curl -fsSL -x http://127.0.0.1:7890 https://raw.github.com/robbyrussell
 
 
 
-## 参考资料
+## Reference
 
 * [MacKernelSDK](https://github.com/acidanthera/MacKernelSDK)
 * [编译触控板驱动](https://apple.sqlsec.com/6-实用姿势/6-2/)
