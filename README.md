@@ -2,7 +2,7 @@
 
 本EFI适配ThinkBook16p 2021 ，其他5800H笔记本也可参考。
 
-[English](README.md)  
+[English](README_en.md)  
 简体中文 (当前语言)  
 
 

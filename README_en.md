@@ -32,7 +32,7 @@ TP: MSFT0001
 
 * Battery（based on SSDT，Battery Percentage、Battery Info、Battery Temperature、Battery Charging/Discharging）
 
-* touchpad（GPIO interrupt mode，compiled with VoodooI2C master 20230711)
+* Touchpad（GPIO interrupt mode，compiled with VoodooI2C master 20230711)
 
 * USB mapping with USBToolBox
 
