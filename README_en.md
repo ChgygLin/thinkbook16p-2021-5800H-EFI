@@ -26,7 +26,7 @@ TP: MSFT0001
 
 * macOS Monterey/Ventura && system update、Booting macOS/Linux dual system with Grub
 
-* Wifi、BT、Audio、Integrated camera
+* Wifi、BT、Audio(Input、Output)、Integrated camera
 
 * Shortcut（Audio、Display brightness、keyboard backlight）
 
@@ -56,7 +56,7 @@ TP: MSFT0001
 
 * Fan sensor/control（To be continued）
 
-* Microphone unavailable（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
+* <del>Microphone unavailable（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）</del>
 
 * external display 
 

@@ -27,7 +27,7 @@ TP: MSFT0001
 
 * 支持macOS Monterey/Ventura系统，支持grub引导macOS/Linux双系统，支持系统推送更新
 
-* 支持Wifi，蓝牙，声卡，集成摄像头
+* 支持Wifi，蓝牙，声卡(输入、输出)，集成摄像头
 
 * 快捷键（音量、屏幕亮度、键盘背光）
 
@@ -57,7 +57,7 @@ TP: MSFT0001
 
 * 风扇Sensor监控（搁置）
 
-* 麦克风无法使用（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）
+* <del>麦克风无法使用（[No Mic on AMD](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)）</del>
 
 * 外接显示器
 
