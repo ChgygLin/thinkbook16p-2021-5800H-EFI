@@ -4,6 +4,8 @@ hackintosh EFI for ThinkBook16p 2021
 English (Current)  
 [简体中文](README_zh.md)  
 
+PS: 20231111 update the iGPU driver to NootedRed-20231111。Geekbench 6 OpenCL: 11751，Metal: 19925，CPU: 1719/6964。
+
 
 
 ##  Specifications

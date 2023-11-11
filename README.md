@@ -5,6 +5,8 @@
 [English](README_en.md)  
 简体中文 (当前语言)  
 
+PS: 20231111更新显卡驱动至NootedRed-20231111。Geekbench 6 OpenCL：11751，Metal：19925，CPU：1719/6964。
+
 
 
 ##  基本配置信息
