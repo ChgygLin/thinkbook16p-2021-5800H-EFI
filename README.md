@@ -6,6 +6,7 @@
 简体中文 (当前语言)  
 
 PS: 20231111更新显卡驱动至NootedRed-20231111。Geekbench 6 OpenCL：11751，Metal：19925，CPU：1719/6964。
+
 PS: 20231214更新显卡驱动至NootedRed-20231214。
 
 
@@ -130,7 +131,7 @@ sudo update-grub
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
 | NootedRed                                             | 23/12/14 | https://github.com/NootInc/NootedRed                        |
 | NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
-| RestrictEvents                                        | 1.1.2    | https://github.com/acidanthera/RestrictEvents               |
+| RestrictEvents                                        | 1.1.3    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |
 | VoodooI2C<br />VoodooI2CHID                           | 23/07/11 | https://github.com/VoodooI2C/VoodooI2C                      |
 | VoodooPS2Controller                                   | 2.3.5    | https://github.com/acidanthera/VoodooPS2                    |
@@ -143,7 +144,7 @@ sudo update-grub
 | BlueToolFixup                                         | 2.6.8    | https://github.com/acidanthera/BrcmPatchRAM                 |
 | RealtekCardReader                                     | 0.9.7    | https://github.com/0xFireWolf/RealtekCardReader             |
 | RealtekCardReaderFriend                               | 1.0.4    | https://github.com/0xFireWolf/RealtekCardReaderFriend       |
-| AppleALC                                              | 1.8.5    | https://github.com/acidanthera/AppleALC                     |
+| AppleALC                                              | 1.8.8    | https://github.com/acidanthera/AppleALC                     |
 | USBMap                                                | think16p | https://github.com/USBToolBox/kext                          |
 
 
