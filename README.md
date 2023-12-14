@@ -6,6 +6,7 @@
 简体中文 (当前语言)  
 
 PS: 20231111更新显卡驱动至NootedRed-20231111。Geekbench 6 OpenCL：11751，Metal：19925，CPU：1719/6964。
+PS: 20231214更新显卡驱动至NootedRed-20231214。
 
 
 
@@ -39,7 +40,7 @@ TP: MSFT0001
 
 * 定制USB驱动
 
-* Vega集显驱动（基于NootedRed master分支0915编译）
+* Vega集显驱动（基于NootedRed master分支1214编译）
 
 * 关闭RTX3060（基于SSDT，屏蔽以省电）
 * CPU温度Sensor（修复了SMCAMDProcessor官方最新代码不支持温度上报的BUG，新版macOS不支持功耗Sensor，如需要请使用**AMD Power Gadget**）
@@ -127,7 +128,7 @@ sudo update-grub
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
 | AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.1    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
-| NootedRed                                             | 23/11/11 | https://github.com/NootInc/NootedRed                        |
+| NootedRed                                             | 23/12/14 | https://github.com/NootInc/NootedRed                        |
 | NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
 | RestrictEvents                                        | 1.1.2    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |

@@ -4,8 +4,8 @@ hackintosh EFI for ThinkBook16p 2021
 English (Current)  
 [简体中文](README_zh.md)  
 
-PS: 20231111 update the iGPU driver to NootedRed-20231111。Geekbench 6 OpenCL: 11751，Metal: 19925，CPU: 1719/6964。
-
+PS: 20231111 update the iGPU driver to NootedRed-20231111.Geekbench 6 OpenCL: 11751，Metal: 19925，CPU: 1719/6964.
+PS: 20231214 update the iGPU driver to NootedRed-20231214.
 
 
 ##  Specifications
@@ -38,7 +38,7 @@ TP: MSFT0001
 
 * USB mapping with USBToolBox
 
-* Vega iGPU driver（compiled with NootedRed master 20230915）
+* Vega iGPU driver（compiled with NootedRed master 20231214）
 
 * disabled RTX3060（based on SSDT）
 * CPU Temperature Sensor（Fix SMCAMDProcessor Temperature Sensor BUG）
@@ -124,7 +124,7 @@ sudo update-grub
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
 | AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.1    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
-| NootedRed                                             | 23/11/11 | https://github.com/NootInc/NootedRed                        |
+| NootedRed                                             | 23/12/14 | https://github.com/NootInc/NootedRed                        |
 | NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
 | RestrictEvents                                        | 1.1.2    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |
