@@ -142,7 +142,7 @@ sudo update-grub
 | ECEnabler                                             | 1.0.4    | https://github.com/1Revenger1/ECEnabler                     |
 | NullEthernet                                          | Unknown  | https://github.com/RehabMan/OS-X-Null-Ethernet              |
 | AirportItlwm                                          | 2.3.0    | https://github.com/OpenIntelWireless/itlwm                  |
-| IntelBluetoothFirmware<br />IntelBTPatcher            | 2.3.0    | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
+| IntelBluetoothFirmware<br />IntelBTPatcher            | 2.4.0    | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
 | BlueToolFixup                                         | 2.6.8    | https://github.com/acidanthera/BrcmPatchRAM                 |
 | RealtekCardReader                                     | 0.9.7    | https://github.com/0xFireWolf/RealtekCardReader             |
 | RealtekCardReaderFriend                               | 1.0.4    | https://github.com/0xFireWolf/RealtekCardReaderFriend       |
