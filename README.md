@@ -9,6 +9,8 @@ PS: 20231111更新显卡驱动至NootedRed-20231111。Geekbench 6 OpenCL：11751
 
 PS: 20231214更新显卡驱动至NootedRed-20231214。
 
+PS: 20240626更新显卡驱动至NootedRed-20240626。Geekbench 6 OpenCL：11923，Metal：20407，CPU：1728/7032。
+
 
 
 ##  基本配置信息
@@ -129,7 +131,7 @@ sudo update-grub
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
 | AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.1    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
-| NootedRed                                             | 23/12/14 | https://github.com/NootInc/NootedRed                        |
+| NootedRed                                             | 24/06/26 | https://github.com/NootInc/NootedRed                        |
 | NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
 | RestrictEvents                                        | 1.1.3    | https://github.com/acidanthera/RestrictEvents               |
 | DebugEnhancer                                         | 1.0.8    | https://github.com/acidanthera/DebugEnhancer                |
