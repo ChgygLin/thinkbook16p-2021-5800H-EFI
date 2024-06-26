@@ -125,7 +125,7 @@ sudo update-grub
 | Lilu                                                  | 1.6.7    | https://github.com/acidanthera/Lilu                         |
 | VirtualSMC<br />SMCBatteryManager<br />SMCLightSensor | 1.3.2    | https://github.com/acidanthera/VirtualSMC                   |
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
-| AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.1    | https://github.com/trulyspinach/SMCAMDProcessor             |
+| AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.2    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
 | NootedRed                                             | 24/06/26 | https://github.com/NootInc/NootedRed                        |
 | NVMeFix                                               | 1.1.1    | https://github.com/acidanthera/NVMeFix                      |
