@@ -4,11 +4,24 @@ hackintosh EFI for ThinkBook16p 2021
 English (Current)  
 [简体中文](README_zh.md)  
 
-PS: 20231111 update the iGPU driver to NootedRed-20231111. Geekbench 6 OpenCL: 11751, Metal: 19925，CPU: 1719/6964.
 
-PS: 20231214 update the iGPU driver to NootedRed-20231214.
 
-PS: 20240626 update the iGPU driver to NootedRed-20240626. Geekbench 6 OpenCL：11923, Metal：20407, CPU：1728/7032。
+## Release Note
+
+- 06-26-2024
+
+  - normal update.
+
+  - latest NootedRed：Geekbench 6: OpenCL/11923, Metal/20407, CPU：1728/7032.
+
+- 12-14-2023
+
+  - latest NootedRed。
+
+- 11-11-2023
+
+  - latest NootedRed：Geekbench 6: OpenCL/11751, Metal/19925, CPU：1719/6964.
+
 
 
 ##  Specifications

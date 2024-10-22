@@ -5,11 +5,17 @@
 [English](README_en.md)  
 简体中文 (当前语言)  
 
-PS: 20231111更新显卡驱动至NootedRed-20231111。Geekbench 6 OpenCL：11751，Metal：19925，CPU：1719/6964。
 
-PS: 20231214更新显卡驱动至NootedRed-20231214。
 
-PS: 20240626更新显卡驱动至NootedRed-20240626。Geekbench 6 OpenCL：11923，Metal：20407，CPU：1728/7032。
+## 更新日志
+
+- 06-26-2024
+  - 常规更新。
+  - 更新显卡驱动NootedRed：Geekbench 6：OpenCL/11923，Metal/20407，CPU：1728/7032。
+- 12-14-2023
+  - 更新显卡驱动NootedRed。
+- 11-11-2023
+  - 更新显卡驱动NootedRed：Geekbench 6：OpenCL/11751，Metal/19925，CPU：1719/6964。
 
 
 
