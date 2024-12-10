@@ -14,7 +14,7 @@
 ## 更新日志
 
 - 12-10-2024
-  - **macOS Sequoia** 初始版本：Geekbench 6：OpenCL/7777，Metal/20144，CPU：1738/6958。
+  - **macOS Sequoia** 初始版本：Geekbench 6：OpenCL/12196，Metal/20427，CPU：1738/6958。
 
 - ------
 
