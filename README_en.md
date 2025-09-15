@@ -156,27 +156,27 @@ sudo update-grub
 | ----------------------------------------------------- | -------- | ----------------------------------------------------------- |
 | OpenCore                                              | 1.0.3    | https://github.com/acidanthera/OpenCorePkg                  |
 | AMD Kernel Patch                                      | 24/12/10 | https://github.com/AMD-OSX/AMD_Vanilla                      |
-| Lilu                                                  | 1.7.0    | https://github.com/acidanthera/Lilu                         |
-| VirtualSMC<br />SMCBatteryManager<br />SMCLightSensor | 1.3.4    | https://github.com/acidanthera/VirtualSMC                   |
+| Lilu                                                  | 1.7.1    | https://github.com/acidanthera/Lilu                         |
+| VirtualSMC<br />SMCBatteryManager<br />SMCLightSensor | 1.3.7    | https://github.com/acidanthera/VirtualSMC                   |
 | AppleMCEReporterDisabler                              | Unknown  |                                                             |
 | AMDRyzenCPUPowerManagement<br />SMCAMDProcessor       | 0.7.2    | https://github.com/trulyspinach/SMCAMDProcessor             |
 | AmdTscSync                                            | 2.0.0    | https://github.com/naveenkrdy/AmdTscSync                    |
-| NootedRed                                             | 24/12/08 | https://github.com/NootInc/NootedRed                        |
-| NVMeFix                                               | 1.1.2    | https://github.com/acidanthera/NVMeFix                      |
-| RestrictEvents                                        | 1.1.5    | https://github.com/acidanthera/RestrictEvents               |
-| DebugEnhancer                                         | 1.1.0    | https://github.com/acidanthera/DebugEnhancer                |
+| NootedRed                                             | 25/09/01 | https://github.com/NootInc/NootedRed                        |
+| NVMeFix                                               | 1.1.3    | https://github.com/acidanthera/NVMeFix                      |
+| RestrictEvents                                        | 1.1.6    | https://github.com/acidanthera/RestrictEvents               |
+| DebugEnhancer                                         | 1.1.1    | https://github.com/acidanthera/DebugEnhancer                |
 | VoodooI2C<br />VoodooI2CHID                           | 23/07/11 | https://github.com/VoodooI2C/VoodooI2C                      |
 | VoodooPS2Controller                                   | 2.3.7    | https://github.com/acidanthera/VoodooPS2                    |
 | BrightnessKeys                                        | 1.0.3    | https://github.com/acidanthera/BrightnessKeys               |
-| FeatureUnlock                                         | 1.1.7    | https://github.com/acidanthera/FeatureUnlock                |
-| ECEnabler                                             | 1.0.5    | https://github.com/1Revenger1/ECEnabler                     |
+| FeatureUnlock                                         | 1.1.8    | https://github.com/acidanthera/FeatureUnlock                |
+| ECEnabler                                             | 1.0.6    | https://github.com/1Revenger1/ECEnabler                     |
 | NullEthernet                                          | Unknown  | https://github.com/RehabMan/OS-X-Null-Ethernet              |
 | AirportItlwm                                          | 2.3.0    | https://github.com/OpenIntelWireless/itlwm                  |
 | IntelBluetoothFirmware<br />IntelBTPatcher            | 2.4.0    | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
 | BlueToolFixup                                         | 2.6.9    | https://github.com/acidanthera/BrcmPatchRAM                 |
 | RealtekCardReader                                     | 0.9.7    | https://github.com/0xFireWolf/RealtekCardReader             |
 | RealtekCardReaderFriend                               | 1.0.4    | https://github.com/0xFireWolf/RealtekCardReaderFriend       |
-| AppleALC                                              | 1.9.3    | https://github.com/acidanthera/AppleALC                     |
+| AppleALC                                              | 1.9.5    | https://github.com/acidanthera/AppleALC                     |
 | USBMap                                                | think16p | https://github.com/USBToolBox/kext                          |
 
 
