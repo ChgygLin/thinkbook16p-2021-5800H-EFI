@@ -71,7 +71,7 @@ TP: MSFT0001
 
 * Vega集显驱动（基于NootedRed master分支编译）
 
-* 禁用RTX3060（基于SSDT，屏蔽以省电）
+* 已停用 RTX 3060 的断电 SSDT。使用独显加速需在 macOS 内安装 [NullMoth NVIDIA 驱动](https://github.com/nullmoth/nvidia-macos-driver)。
 * CPU温度Sensor（~~修复了SMCAMDProcessor官方最新代码不支持温度上报的BUG~~，新版macOS不支持功耗Sensor，如需要请使用**AMD Power Gadget**）
 
 

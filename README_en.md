@@ -72,7 +72,7 @@ TP: MSFT0001
 
 * Vega iGPU driver（compiled with NootedRed master 20231214）
 
-* disabled RTX3060（based on SSDT）
+* The RTX 3060 power-off SSDT is disabled. Install the [NullMoth NVIDIA driver](https://github.com/nullmoth/nvidia-macos-driver) in macOS to enable GPU acceleration.
 * CPU Temperature Sensor（Fix SMCAMDProcessor Temperature Sensor BUG）
 
 
